@@ -39,6 +39,10 @@
                 <textarea class="form-control bg-light" placeholder="Leave a comment here" id="message" style="height: 100px"></textarea>
                 <label class="fw-bold"  for="message">Un message à nous parvenir avant la prise de contacte ?</label>
               </div>
+
+              <div class="d-flex justify-content-center mb-3">
+                <input type="submit" class="btn btn-primary w-50">
+              </div>
                 
 
 
