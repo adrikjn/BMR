@@ -1,5 +1,6 @@
 <?php 
 
+session_start();
 // Vérifier si le formulaire a été soumis
 if($_SERVER["REQUEST_METHOD"] == 'POST') {
 
@@ -31,7 +32,7 @@ if($_SERVER["REQUEST_METHOD"] == 'POST') {
                     } else {
 
                         // Si toutes les conditions sont remplies, afficher un message de succès
-                        echo "Le formulaire a été soumis avec succès";
+                        echo "Le formulaire a été soumis avec succès.";
                     }
                 }
             }
@@ -41,3 +42,33 @@ if($_SERVER["REQUEST_METHOD"] == 'POST') {
 
 
 // <!-- name / email / tel / besoin / message-->
+
+// Connexion à la base de donnée
+try{
+    $connexion= new PDO("mysql:host=localhost;dbname=bmr;charset=utf8mby", "root", "");
+}catch(Exception $e){
+    echo "impossible de se connecter à la base de données";
+    var_dump($e);
+    exit;
+}
+
+// Récupération des données du formulaire
+$name = mysqli_real_escape_string($conn, $_POST['name']);
+$email = mysqli_real_escape_string($conn, $_POST['email']);
+$tel = mysqli_real_escape_string($conn, $_POST['tel']);
+$besoin = mysqli_real_escape_string($conn, $_POST['besoin']);
+$message = mysqli_real_escape_string($conn, $_POST['message']);
+
+$sql = "INSERT INTO contact (name, email, tel, besoin, message)
+        VALUES ('$name', '$email', '$tel', '$besoin', '$message')";
+
+if (mysqli_query($conn, $sql)) {
+    echo "Les données ont été envoyées avec succès dans la base de données.";
+} else {
+    echo "Une erreur est survenue lors de l'envoi des données dans la base de données : " . mysqli_error($conn);
+}
+
+// Fermeture de la connexion à la base de données
+mysqli_close($conn);
+
+?>
