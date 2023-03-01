@@ -33,6 +33,21 @@ session_start();
             </ul>
         </nav>
     </header>
+
+    <section class="container">
+        <!-- routing des deux pages front -->
+        <?php if(empty($_GET)) : ?>
+            <?php require "views/accueil.php" ?>
+        
+        <?php elseif(!empty($_GET["page"]) && $_GET["page"] === "contact") : ?>
+            <?php require "views/contact.php" ?>
+
+        <?php else : ?>
+            <?php require "views/404.php" ?>
+        <?php endif ?>
+    </section>
+
+    
 </body>
 
 </html>
