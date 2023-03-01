@@ -20,7 +20,7 @@
             <div class="text-light text-center p-3">
                 <h1 class="">B.M.R. ACCESSOIRES</h1>
                 <p class="fst-italic">Produits & Accesoires de qualités</p>
-                <a href="" class="btn btn-primary btn-lg rounded mt-3 animated-button">
+                <a href="index.php?page=contact" class="btn btn-primary btn-lg rounded mt-3 animated-button">
                     Quels sont vos besoins ?
                </a>
             </div>
@@ -55,7 +55,7 @@
                                 class="card-body text-center d-flex flex-column justify-content-between align-content-center">
                                 <h3 class="card-title">Tissus pour Ameublement</h3>
                                 <p class="card-text fst-italic">Fabrication & Vente en Gros</p>
-                                <a href=""
+                                <a href="index.php?page=contact"
                                     class="card-link btn btn-primary btn-lg rounded mt-3 animated-button text-center">Plus
                                     d'informations</a>
                             </div>
@@ -69,7 +69,7 @@
                                 class="card-body text-center d-flex flex-column justify-content-between align-content-center">
                                 <h3 class="card-title">Différents types de Tissus</h3>
                                 <p class="card-text fst-italic">Fabrication & Vente en gros</p>
-                                <a href="" class="card-link btn btn-primary btn-lg rounded mt-3 animated-button"> Plus
+                                <a href="index.php?page=contact" class="card-link btn btn-primary btn-lg rounded mt-3 animated-button"> Plus
                                     d'informations</a>
                             </div>
                         </div>
@@ -82,7 +82,7 @@
                                 class="card-body text-center d-flex flex-column justify-content-between align-content-center">
                                 <h3 class="card-title text-center">Tissus pour l'Habillement</h3>
                                 <p class="card-text fst-italic">Fabrication & Vente en Gros</p>
-                                <a href="" class="card-link btn btn-primary btn-lg rounded mt-3 animated-button">Plus
+                                <a href="index.php?page=contact" class="card-link btn btn-primary btn-lg rounded mt-3 animated-button">Plus
                                     d'informations </a>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                 class="card-body text-center d-flex flex-column justify-content-between align-content-center">
                                 <h3 class="card-title">Linges de Maison</h3>
                                 <p class="card-text fst-italic">Fabrication & Vente en gros</p>
-                                <a href="" class="card-link btn btn-primary btn-lg rounded mt-3 animated-button">Plus
+                                <a href="index.php?page=contact" class="card-link btn btn-primary btn-lg rounded mt-3 animated-button">Plus
                                     d'informations</a>
                             </div>
                         </div>
@@ -108,7 +108,7 @@
                                 class="card-body text-center d-flex flex-column justify-content-between align-content-center">
                                 <h3 class="card-title text-center">Mercerie</h3>
                                 <p class="card-text fst-italic">Fabrication & Vente en gros</p>
-                                <a href="" class="card-link btn btn-primary btn-lg rounded mt-3 animated-button">Plus
+                                <a href="index.php?page=contact" class="card-link btn btn-primary btn-lg rounded mt-3 animated-button">Plus
                                     d'informations</a>
                             </div>
                         </div>
@@ -121,7 +121,7 @@
                                 class="card-body text-center d-flex flex-column justify-content-between align-content-center">
                                 <h3 class="card-title">Passementerie</h3>
                                 <p class="card-text fst-italic">Fabrication & Vente en gros</p>
-                                <a href="" class="card-link btn btn-primary btn-lg rounded mt-3 animated-button">Plus
+                                <a href="index.php?page=contact" class="card-link btn btn-primary btn-lg rounded mt-3 animated-button">Plus
                                     d'informations</a>
                             </div>
                         </div>

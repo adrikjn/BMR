@@ -1,6 +1,6 @@
 <div class="container border d-flex flex-column align-items-center bg-white mt-3 p-1" style="border: 2px solid #ccc; border-radius: 10px; padding: 10px;">
         <h1 class="fw-bold my-4 contactSize text-decoration-underline">Contactez-Nous</h1>
-        <form action="" method="">
+        <form action="lib/traitement.php" method="POST">
             
             <div class="form-floating mt-3">
                 <input type="text" class="form-control bg-light" id="name" placeholder="Prénom NOM">
